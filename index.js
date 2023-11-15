@@ -3,4 +3,4 @@ function onWindowResize(){
     document.getElementById('width').innerText = ""+width
 }
 window.addEventListener('resize', onWindowResize)
-onWindowResize() //Call manually to display initial width
+onWindowResize() //Call manually to display initial width in navbar
